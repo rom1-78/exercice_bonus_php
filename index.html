@@ -1,0 +1,64 @@
+<html>
+<body>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="projet7.css">
+<form action="projet7.php" method="get">
+<h1>Formulaire de reservation pour un hotel</h1>
+<table>
+	<tr>
+		<td class="colonne1">Raison Sociale :</td> <td><input class="input" type="text" name="Nom" value=""></td>
+	</tr>
+	<tr>
+		<td class="colonne1">Etoile : </td> <td><input class="input" type="number" name="Etoile" value=""></td>
+		</td>
+	</tr>
+	<tr>
+		<td class="colonne1">Adresse : </td> <td><input class="input" type="text" name="Adresse" value=""></td>
+	</tr>
+	<tr>
+		<td class="colonne1">Email : </td> <td><input class="input" type="text" name="Email" value=""></td>
+	</tr>
+	<tr>
+		<td class="colonne1">Tel : </td> <td><input class="input" type="text" name="Tel" value=""></td>
+	</tr>
+	<tr>
+		<td class="colonne1">Prix : </td> <td><input class="€" class="input" type="text" name="Prix" value="">€</td>
+	</tr>
+	<tr>
+		<td rawspan="2" class="colonne1">animaux : </td> 
+		<td><input type="radio" name="r1" value="animaux autorisé">autorisé<br>
+		<input type="radio" name="r1" value="animaux non autorisé">non autorisé<br></td>
+	</tr>
+	<tr>
+		<td class="colonne1">Ville : </td> <td><select class="select" class="input" name="Ville">
+		<option value=" " selected></option>
+		<option value="Paris">Paris</option>
+		<option value="Marseilles">Marseilles</option>
+		<option value="Lyon">Lyon</option>
+		<option value="Strasbourg">Strasbourg</option>
+		<option value="Nantes">Nantes</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="colonne1">Type : </td> <td><select class="select" class="input" name="Type" id="Type">
+		<option value="Type" selected> </option>
+		<option value="Hotel">Hotel</option>
+		<option value="Talasso">Talasso</option>
+		<option value="SPA">SPA</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="colonne1">Login : </td> <td><input class="input" type="text" name="Login" value=""></td>
+	</tr>
+	<tr>
+		<td class="colonne1">Mot de passe : </td> <td><input class="input" type="password" name="Mdp" value=""></td>
+	</tr>
+</table>
+
+ <input class="button" type="submit" value="valider">
+
+</form>
+</body>
+</html>
